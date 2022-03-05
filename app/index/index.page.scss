@@ -1,0 +1,24 @@
+.bgColor{
+    height: 100%; width: 100%;
+    background-color: #121416;
+}
+#myLogo{
+    display: block;
+    max-width: 150px;
+    margin: auto; padding-top: 250px;
+}
+#myText{
+    display: flex;
+    width: 127px; height: 40px;
+    margin: auto;
+    line-height: 0.1px;
+}
+p{
+    font-size: 30px;
+}
+#purple{
+    color: #B388FF;
+}
+#white{
+    color: white;
+}

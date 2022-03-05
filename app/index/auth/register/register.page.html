@@ -1,0 +1,35 @@
+<ion-content>
+  <div class="bgColor"> <!-- main background color-->
+    <img src="assets/img/logo.jpeg" alt="Main logo" id="myLogo"> <!--for logo-->
+    <ion-card class="ion-text-wrap"> 
+      <ion-card-content>
+        <ion-label>Username</ion-label>
+        <ion-item>
+            <ion-input placeholder="Enter your username"></ion-input> <!--username input-->
+        </ion-item>
+        <br>
+        <ion-label>Full Name</ion-label>
+        <ion-item>
+            <ion-input placeholder="Enter your fullname"></ion-input> <!--username input-->
+        </ion-item>
+        <br>
+        <ion-label>Email</ion-label>
+        <ion-item>
+            <ion-input placeholder="Enter your email" type="email"></ion-input> <!--username input-->
+        </ion-item>
+        <br>
+        <ion-label>Password</ion-label>
+        <ion-item>
+            <ion-input placeholder="Enter your password" type="password"></ion-input> <!--password input-->
+        </ion-item>
+        <ion-button routerLink="../">Sign Up</ion-button> <!--login button-->
+        <p>By signing up, you agree to our Terms, Data Policy and Cookies Policy</p>
+      </ion-card-content>
+    </ion-card>
+  </div> <!--end of main-->
+</ion-content>
+
+<!--for footer-->
+<ion-footer>
+  <ion-label class="myFont">Have an account? <a routerLink="../">Log In</a></ion-label> <!--go back to login page-->
+</ion-footer>
